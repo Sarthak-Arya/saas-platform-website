@@ -1,6 +1,6 @@
 # Terakota - SaaS based project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
 
 Welcome to the Terakota demo project repository! This project showcases the frontend and backend skills of our team while creating a demo project for a SaaS providing company. The frontend is developed using React, and the backend is built with Django, utilizing open-source materials and UI components.
 
