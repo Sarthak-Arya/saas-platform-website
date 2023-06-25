@@ -78,7 +78,7 @@ Please make sure to adhere to the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Sarthak-Arya/saas-platform-website/blob/main/LICENSE) file for more information.
+This project is licensed under the GNU License. See the [LICENSE](https://github.com/Sarthak-Arya/saas-platform-website/blob/main/LICENSE) file for more information.
 
 ## Acknowledgements
 
