@@ -1,0 +1,7 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    background: rgba(14, 10, 15/0.2, 0.8); /* Adjust the color and opacity as desired */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as desired */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+}
