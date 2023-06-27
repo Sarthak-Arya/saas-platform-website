@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Terakota - SaaS based project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-GNU-blue.svg)](LICENSE)
 
-## Available Scripts
+Welcome to the Terakota demo project repository! This project showcases the frontend and backend skills of our team while creating a demo project for a SaaS providing company. The frontend is developed using React, and the backend is built with Django, utilizing open-source materials and UI components.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User-friendly and intuitive frontend interface
+- Seamless integration of open-source UI components
+- Robust backend built with Django
+- Scalable infrastructure for efficient performance
+- Demo project tailored for a SaaS providing company
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: A popular JavaScript library for building user interfaces
+- Django: A high-level Python web framework for rapid development
+- Open-source UI Materials: Utilized to enhance the frontend aesthetics
+- Tailwind CSS: for css  
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+```shell
+git clone https://github.com/Sarthak-Arya/saas-platform-website.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the required dependencies for the frontend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```shell
+cd frontend
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the required dependencies for the backend:
 
-### `npm run eject`
+```shell
+cd ../backend
+pip install -r requirements.txt
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Configure the backend settings:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+cd src
+cp .env.example .env
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Start the development server for the frontend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```shell
+cd ../frontend
+npm start
+```
 
-## Learn More
+6. Start the development server for the backend:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```shell
+cd ../backend
+python manage.py runserver
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Visit `http://localhost:3000` in your web browser to access the application.
 
-### Code Splitting
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We welcome contributions to improve and enhance this demo project. If you'd like to contribute, please follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make the necessary changes and commit your code.
+4. Push the changes to your forked repository.
+5. Submit a pull request detailing the changes you made.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please make sure to adhere to the [code of conduct](CODE_OF_CONDUCT.md).
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the GNU License. See the [LICENSE](https://github.com/Sarthak-Arya/saas-platform-website/blob/main/LICENSE) file for more information.
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We would like to express our gratitude to the open-source community for their invaluable contributions, which helped make this project possible.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions, suggestions, or feedback, please feel free to reach out to me at [sarthak.arya@outlook.com].
