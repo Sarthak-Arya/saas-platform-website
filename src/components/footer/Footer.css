@@ -1,5 +1,5 @@
 .footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     background: rgba(14, 10, 15/0.2, 0.8); /* Adjust the color and opacity as desired */
     backdrop-filter: blur(10px); /* Adjust the blur radius as desired */

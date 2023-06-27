@@ -3,15 +3,16 @@ import Header from "../header/header";
 import Footer from "../footer/Footer";
 import './container.css'
 
-function Container({childern}){
+function Container({children}){
 
     return(
-        <div className="container">
+        <div className="container min-h-screen">
             <Header />
-            {childern}
+                <div>
+                    {children}
+                </div>
             <Footer/>
-        </div>
-        
+        </div>   
 
     )
 }

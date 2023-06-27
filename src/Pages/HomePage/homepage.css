@@ -1,0 +1,16 @@
+.bg-hero{
+    background-image: radial-gradient(circle,#96f 0,rgba(14,10,15,0) 70%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1079px;
+    height: 1079px;
+    top: -348px;
+    left: -46px;
+    opacity: 0.15;
+    z-index: 10;
+}
+
+.vi{
+    transform: scale(1.2);
+}

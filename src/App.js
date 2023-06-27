@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Container from './components/Container/Container'
+import HomePage from './Pages/HomePage/HomePage';
+
 
 function App() {
   return (
     <div className="App">
-      <Container>
-              
-      </Container>
+      <HomePage />
     </div>
   );
 }

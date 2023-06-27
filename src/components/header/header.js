@@ -1,10 +1,9 @@
 import react from 'react'
-import './header.css'
+// import './header.css'
 
 function Header(){
     return(
-    <div className="font-sans w-full min-h-screen m-0">
-	<div className="bg-white shadow">
+	<div className="bg-transparent z-[-10]">
     <div className="container mx-auto px-4">
       <div className="flex items-center justify-between py-4">
         <div className="flex">
@@ -141,7 +140,6 @@ function Header(){
       </div>
     </div>
   </div>
-</div>
     )
 } 
 
